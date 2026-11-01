@@ -7,14 +7,14 @@ local strings_to_add = {
 	loc_communication_wheel_need_help = ForTheEmperor_localization.need_help_comms_wheel,
 	loc_communication_wheel_i_need_that = ForTheEmperor_localization.i_need_that,
 	loc_communication_wheel_take_this = ForTheEmperor_localization.thak_this,
-	loc_communication_wheel_deamonhost = ForTheEmperor_localization.deamonhost,
+	loc_communication_wheel_deamonhost = ForTheEmperor_localization.daemonhost,
 	loc_communication_wheel_sorry = ForTheEmperor_localization.sorry,
 	
 }
 
 local need_ammo_strings = string.split(Localize("loc_communication_wheel_need_ammo"),
 	i_need_that_strings = string.split(Localize("loc_communication_wheel_i_need_that"),
-	deamonhost_strings = string.split(Localize("loc_communication_wheel_deamonhost"),
+	deamonhost_strings = string.split(Localize("loc_communication_wheel_daemonhost"),
 	take_this_strings = string.split(Localize("loc_communication_wheel_take_this"),
 	sorry_strings = string.split(Localize("loc_communication_wheel_sorry")
 
