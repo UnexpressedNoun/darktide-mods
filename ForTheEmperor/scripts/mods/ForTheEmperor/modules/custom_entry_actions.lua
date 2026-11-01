@@ -41,6 +41,14 @@ mod:hook_safe(
 				mod.send_wheel_message(Localize(option.display_name), 5)
 			elseif option.display_name == "loc_social_menu_confirmation_popup_decline_button" then
 				mod.send_wheel_message(Localize(option.display_name), 5)
+			elseif option.display_name == "loc_communication_wheel_i_need_that" then
+				mod.send_wheel_message(Localize(option.display_name), 5)
+			elseif option.display_name == "loc_communication_wheel_take_this" then
+				mod.send_wheel_message(Localize(option.display_name), 5)
+			elseif option.display_name == "loc_communication_wheel_sorry" then
+				mod.send_wheel_message(Localize(option.display_name), 5)
+				elseif option.display_name == "loc_communication_wheel_deamonhost" then
+				mod.send_wheel_message(Localize(option.display_name), 5)
 			end
 		end
 	end
