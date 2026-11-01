@@ -60,6 +60,7 @@ local comms_allowed = function()
 	if
 		not (game_mode and Managers.player)
 		and (game_mode == "coop_complete_objective" or game_mode == "shooting_range" or game_mode == "prologue")
+		or (Managers.ui:using_input())
 	then
 		return false
 	end
