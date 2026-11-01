@@ -91,5 +91,9 @@ local localizations = {
 
 localizations.keybind_emperor = localizations.mod_title
 localizations.keybind_help = localizations.need_help_comms_wheel
+localizations.keybind_i_need_that = localizations.i_need_that_comms_wheel
+localizations.keybind_take_this = localizations.take_this_comms_wheel
+localizations.keybind_deamonhost = localizations.deamonhost_comms_wheel
+localizations.keybind_sorry = localizations.sorry_comms_wheel
 
 return localizations
