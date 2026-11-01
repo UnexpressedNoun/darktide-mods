@@ -12,7 +12,11 @@ local strings_to_add = {
 	
 }
 
-local need_ammo_strings = string.split(Localize("loc_communication_wheel_need_ammo"), " ")
+local need_ammo_strings = string.split(Localize("loc_communication_wheel_need_ammo"),
+	i_need_that_strings = string.split(Localize("loc_communication_wheel_i_need_that"),
+	deamonhost_strings = string.split(Localize("loc_communication_wheel_deamonhost"),
+	take_this_strings = string.split(Localize("loc_communication_wheel_take_this"),
+	sorry_strings = string.split(Localize("loc_communication_wheel_sorry")
 
 for i, str in ipairs(need_ammo_strings) do
 	if i ~= 2 then
