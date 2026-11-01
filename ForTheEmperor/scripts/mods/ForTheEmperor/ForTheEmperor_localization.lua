@@ -46,7 +46,7 @@ local localizations = {
 		["en"] = "Take This",
 	},
 	deamonhost_comms_wheel = {
-		["en"] = "Deamonhost!",
+		["en"] = "Daemonhost!",
 	},
 	sorry_comms_wheel = {
 		["en"] = "Sorry",
@@ -55,7 +55,7 @@ local localizations = {
 		["en"] = Localize("loc_communication_wheel_display_name_need_ammo"),
 	},
 	keybind_deamonhost = {
-		["en"] = Localize("loc_communication_wheel_display_name_deamonhost"),
+		["en"] = Localize("loc_communication_wheel_display_name_daemonhost"),
 	},
 	keybind_take_this = {
 		["en"] = Localize("loc_communication_wheel_display_name_take_this"),
