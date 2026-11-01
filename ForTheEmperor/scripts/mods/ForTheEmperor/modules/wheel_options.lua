@@ -45,7 +45,7 @@ local wheel_options = {
 			voice_tag_id = VOQueryConstants.trigger_ids.com_wheel_vo_enemy_over_here,
 		},
 	},
-	[WHEEL_OPTION.demonhost] = {
+	[WHEEL_OPTION.deamonhost] = {
 		display_name = "loc_communication_wheel_display_name_deamonhost",
 		icon = "content/ui/materials/hud/communication_wheel/icons/enemy",
 		tag_type = "location_threat",
