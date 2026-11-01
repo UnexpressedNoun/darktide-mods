@@ -32,6 +32,10 @@ local wheel_config = mod:get("wheel_config")
 		[8] = WHEEL_OPTION.no,
 		[9] = WHEEL_OPTION.help,
 		[10] = WHEEL_OPTION.ammo,
+		[11] = WHEEL_OPTION.sorry,
+		[12] = WHEEL_OPTION.take_this,
+		[13] = WHEEL_OPTION.i_need_that,
+		[14] = WHEEL_OPTION.deamonhost,
 	}
 
 local num_entries = table.size(wheel_config)
