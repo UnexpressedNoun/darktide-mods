@@ -39,8 +39,32 @@ local localizations = {
 		["en"] = "Need Help",
 		["zh-cn"] = "需要帮助",
 	},
+	i_need_that_comms_wheel = {
+		["en"] = "I Need That",
+	},
+	take_this_comms_wheel = {
+		["en"] = "Take This",
+	},
+	deamonhost_comms_wheel = {
+		["en"] = "Deamonhost!",
+	},
+	sorry_comms_wheel = {
+		["en"] = "Sorry",
+	},
 	keybind_ammo = {
 		["en"] = Localize("loc_communication_wheel_display_name_need_ammo"),
+	},
+	keybind_deamonhost = {
+		["en"] = Localize("loc_communication_wheel_display_name_deamonhost"),
+	},
+	keybind_take_this = {
+		["en"] = Localize("loc_communication_wheel_display_name_take_this"),
+	},
+	keybind_i_need_that = {
+		["en"] = Localize("loc_communication_wheel_display_name_i_need_that"),
+	},
+	keybind_sorry = {
+		["en"] = Localize("loc_communication_wheel_display_name_sorry"),
 	},
 	keybind_attention = {
 		["en"] = Localize("loc_communication_wheel_display_name_attention"),
