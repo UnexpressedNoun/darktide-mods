@@ -4,7 +4,7 @@ local VOQueryConstants = require("scripts/settings/dialogue/vo_query_constants")
 local ChannelTags = ChatManagerConstants.ChannelTag
 
 local WHEEL_OPTION =
-	table.enum("ammo", "attention", "emperor", "enemy", "health", "help", "location", "no", "thanks", "yes", "take_this", "i_need_that", "deamonhost", "sorry")
+	table.enum("ammo", "attention", "emperor", "enemy", "health", "help", "location", "no", "thanks", "yes", "take_this", "i_need_that", "daemonhost", "sorry")
 
 local wheel_options = {
 	[WHEEL_OPTION.ammo] = {
@@ -45,16 +45,16 @@ local wheel_options = {
 			voice_tag_id = VOQueryConstants.trigger_ids.com_wheel_vo_enemy_over_here,
 		},
 	},
-	[WHEEL_OPTION.deamonhost] = {
+	[WHEEL_OPTION.daemonhost] = {
 		display_name = "loc_communication_wheel_display_name_deamonhost",
 		icon = "content/ui/materials/hud/communication_wheel/icons/enemy",
 		tag_type = "location_threat",
 		voice_event_data = {
 			voice_tag_concept = VOQueryConstants.concepts.on_demand_com_wheel,
-			voice_tag_id = "chaos_deamonhost",
+			voice_tag_id = VOQueryConstants.trigger_ids."chaos_daemonhost",
 		},
 		chat_message_data = {
-			text = "ccw_command_deamonhost",
+			text = "ccw_command_daemonhost",
 			channel = ChannelTags.MISSION,
 		},
 	},
