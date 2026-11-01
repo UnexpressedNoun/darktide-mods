@@ -5,6 +5,11 @@ local ForTheEmperor_localization = mod:io_dofile("ForTheEmperor/scripts/mods/For
 local strings_to_add = {
 	loc_for_the_emperor = ForTheEmperor_localization.mod_title,
 	loc_communication_wheel_need_help = ForTheEmperor_localization.need_help_comms_wheel,
+	loc_communication_wheel_i_need_that = ForTheEmperor_localization.i_need_that,
+	loc_communication_wheel_take_this = ForTheEmperor_localization.thak_this,
+	loc_communication_wheel_deamonhost = ForTheEmperor_localization.deamonhost,
+	loc_communication_wheel_sorry = ForTheEmperor_localization.sorry,
+	
 }
 
 local need_ammo_strings = string.split(Localize("loc_communication_wheel_need_ammo"), " ")
