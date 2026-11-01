@@ -4,7 +4,7 @@ local VOQueryConstants = require("scripts/settings/dialogue/vo_query_constants")
 local ChannelTags = ChatManagerConstants.ChannelTag
 
 local WHEEL_OPTION =
-	table.enum("ammo", "attention", "emperor", "enemy", "health", "help", "location", "no", "thanks", "yes")
+	table.enum("ammo", "attention", "emperor", "enemy", "health", "help", "location", "no", "thanks", "yes", "take_this", "i_need_that", "deamonhost", "sorry")
 
 local wheel_options = {
 	[WHEEL_OPTION.ammo] = {
@@ -43,6 +43,57 @@ local wheel_options = {
 		voice_event_data = {
 			voice_tag_concept = VOQueryConstants.concepts.on_demand_com_wheel,
 			voice_tag_id = VOQueryConstants.trigger_ids.com_wheel_vo_enemy_over_here,
+		},
+	},
+	[WHEEL_OPTION.demonhost] = {
+		display_name = "loc_communication_wheel_display_name_deamonhost",
+		icon = "content/ui/materials/hud/communication_wheel/icons/enemy",
+		tag_type = "location_threat",
+		voice_event_data = {
+			voice_tag_concept = VOQueryConstants.concepts.on_demand_com_wheel,
+			voice_tag_id = "chaos_deamonhost",
+		},
+		chat_message_data = {
+			text = "ccw_command_deamonhost",
+			channel = ChannelTags.MISSION,
+		},
+	},
+	[WHEEL_OPTION.i_need_that] = {
+		display_name = "loc_communication_wheel_display_name_i_need_that",
+		icon = "content/ui/materials/hud/interactions/icons/help",
+		voice_event_data = {
+			voice_tag_concept = VOQueryConstants.concepts.on_demand_com_wheel,
+			voice_tag_id = VOQueryConstants.trigger_ids.com_wheel_vo_need_that,
+		},
+		chat_message_data = {
+			text = "ccw_command_i_need_that",
+			channel = ChannelTags.MISSION,
+		},
+	},
+	[WHEEL_OPTION.take_this] = {
+		display_name = "loc_communication_wheel_display_name_take_this",
+		icon = "content/ui/materials/hud/interactions/icons/help",
+		tag_type = "location_attention",
+		voice_event_data = {
+			voice_tag_concept = VOQueryConstants.concepts.on_demand_com_wheel,
+			voice_tag_id = VOQueryConstants.trigger_ids.com_wheel_vo_take_this,
+		},
+		chat_message_data = {
+			text = "ccw_take_this",
+			channel = ChannelTags.MISSION,
+		},
+	},
+	[WHEEL_OPTION.sorry] = {
+		display_name = "loc_communication_wheel_display_name_sorry",
+		icon = "content/ui/materials/hud/communication_wheel/icons/thanks",
+		tag_type = "",
+		voice_event_data = {
+			voice_tag_concept = VOQueryConstants.concepts.on_demand_com_wheel,
+			voice_tag_id = "",
+		},
+		chat_message_data = {
+			text = "ccw_sorry",
+			channel = ChannelTags.MISSION,
 		},
 	},
 	[WHEEL_OPTION.health] = {
