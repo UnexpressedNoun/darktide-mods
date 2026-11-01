@@ -85,6 +85,14 @@ return {
 						default_value = {},
 					},
 					{
+						setting_id = "keybind_sorry",
+						type = "keybind",
+						keybind_trigger = "pressed",
+						keybind_type = "function_call",
+						function_name = "keybind_sorry",
+						default_value = {},
+					},
+					{
 						setting_id = "keybind_ammo",
 						type = "keybind",
 						keybind_trigger = "pressed",
