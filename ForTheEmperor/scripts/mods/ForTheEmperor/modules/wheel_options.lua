@@ -51,7 +51,7 @@ local wheel_options = {
 		tag_type = "location_threat",
 		voice_event_data = {
 			voice_tag_concept = VOQueryConstants.concepts.on_demand_com_wheel,
-			voice_tag_id = VOQueryConstants.trigger_ids."chaos_daemonhost",
+			voice_tag_id = VOQueryConstants.trigger_ids.name_"chaos_daemonhost",
 		},
 		chat_message_data = {
 			text = "ccw_command_daemonhost",
